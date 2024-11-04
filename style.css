@@ -6,7 +6,6 @@ nav{display: flex;
 .nav-title{color: dark light;
     font-weight: bold;
     font-size: 35px;
-   
     font-family: Arial, Helvetica, sans-serif;
       }
 
@@ -14,13 +13,13 @@ nav ul{display: flex;
        align-items: center;}
 
 nav li{
-    list-style: none;
+       list-style: none;
        margin-right: 50px; }
 
 .btn-primary{
-    border-radius: 1px solid black;
+    border-radius: 10px;
     font-size: 25px;
-    color: rgb(34, 32, 32);
+ /*    color: rgb(34, 32, 32); */
     font-weight: 500;
     padding: 10px 25px;}
 
@@ -28,27 +27,35 @@ nav li{
 
    
 
-.contact{text-align: center;
-        background-image: url('../images/Hero-bg.png');
-        padding: 60px;
+.banner-contact{text-align: center;
+        background-image: url('images/Hero-bg.png');
+        background-repeat: no-repeat;
+        padding-bottom: 120px;
+        padding-top: 30px;
+       
         
         }
 
 
 
 .contact-h2{
-        font-size: 55px;
-        font-family: "Anton", sans-serif;
+        font-size: 48px;
+        /* font-family: extra-bold; */
          /* width: 100%; */
-         /* font-weight: 500px; */
+          font-weight:extra-bold; 
          /* position: relative; */
          letter-spacing: 5px;
+         color:#0D1321;
+         
+        
           }
 
-.contact-p{font-size: 20px;
-          color: #524f4f;
-          font-family: bold;
-           margin-bottom: -2%; 
+ .contact-p{font-size: 20px;
+           color: #524f4f; 
+          /* color:#0D1321; */
+          /* font-family: bold; */
+            margin-bottom: 2%; 
+           
           }    
 
 .contact-btn{
@@ -61,25 +68,28 @@ nav li{
            }
 
 .development-section{
-    padding:5px 20px; 
+   /*  padding:5px 20px; 
     margin: 15px 20px;
    margin: 100px;
    width: 80%;
    border-radius: 10px;
-    padding: 20px 20px; 
+    padding: 20px 20px;  */
+    
                 }
 
 
-.div-sec{
-         margin:50px;
-         padding: 20px;}
+.div-section{
+ text-align: center;
+    }
 
 .div-1{font-size: 40px;
-       font-family:"Anton", sans-serif;
-       font-weight: bold;}
+      font-family:"Azeret Mono";
+      color:#181818;}
+
+  
 
 .div-2{font-size: 20px;
-       color:#757272}                
+       color:#757272;}                
  
 .div-code{
         /* background: #f0efef; */
@@ -158,22 +168,22 @@ nav li{
       /*  margin-bottom: 200px; */
        /* background-position: bottom right, top left */;}
 
-.div-1{ background: #f0efef;
+.div-1{ /* background: #f0efef; */
          /* padding:5px 20px; 
            margin: 15px 20px;
            margin: 100px; */
-           width: 100%;
-          border-radius: 10px;
-          padding: 20px 20px;
+          /*  width: 100%; */
+          /* border-radius: 10px; */
+          
          
          }  
   
   .div-2{
-          padding-top: 50px;
+          /* padding-top: 50px;
           padding-left: 30px;
           margin: 20px;
           font-size: 30px;
-          color:#757272; }
+          color:#757272; */ }
    
    .div-3{font-size: 20px;
           color:#685e5e;
@@ -204,7 +214,7 @@ nav li{
       color:#493b3b;}
 .youtube{text-align: center;}
 
-.div-q{background-image: url('../images/handshake.png');
+.div-q{background-image: url('images/handshake.png');
       width: 50px;}
 .div-v{}
 .div-w{}
@@ -216,8 +226,7 @@ footer{ width: 50%;
        padding: 30px 0;
        border-radius: 5px;}
 
-       footer p{    
-     
+footer p{    
               /* margin-bottom: 25px;
               margin-top: 20px;
               font-weight: 600;
