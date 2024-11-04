@@ -107,8 +107,8 @@ nav li{
        font-size: 30px;
        
        color: #524f4f;
-       
-     /*   font-family:'monospace' */;
+
+        /* font:monospace; */
       /*  font-weight: bold */;
        
        
@@ -138,7 +138,7 @@ nav li{
 .div-help {font-size: 32px;
            color: #524f4f;}  
 
-.div-c{font-size: 22px;
+.div-c{font-size: 20px;
        color: #3a3939;}
 
 .div-btn{padding: 10px 25px;
@@ -146,6 +146,23 @@ nav li{
        font-size: 20px;
         color: #3a3939;
         font-family:arial;}
+
+.div-insprition{
+              text-align:center;
+                width: 100%;
+               margin: 60px 50px;}
+
+.div-my{font-size: 40px;
+        /* font-family: bold; */
+        font-family:'Azeret Mono';
+        color:#110d0d;
+         }
+
+.div-h{font-size: 20px;
+       color: #3a3939;
+       margin-bottom: 50px;
+       }
+.newtube{width: 1180px;}
 
 
 /* .div-code{
