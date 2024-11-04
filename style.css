@@ -210,145 +210,32 @@ nav li{
              width: 43%;}
 
 
+.support-section{background-image:url('images/handshake.jpg');
+        text-align: center; 
+       width: 80%;
+       padding: 60px 0;
+       margin: 60px auto;
+       background-position: center;
+       background-size: cover;
+       border-radius: 10px;}
 
+.support{text-align: center;}
 
+.support-h2{color:#f5ecec;
+            font-size: 40px;}
 
-/* .div-code{
-        /* background: #f0efef; */
-        /* padding:5px 20px; 
-        margin: 15px 20px; */
-       /*  margin: 100px;  */
-      /*   width: 80%;
-        border-radius: 10px;
-        padding: 20px 20px; */}
+.support-p{color: #aaa6a6;
+           font-size: 20px;}
+.new-placeholder{padding: 10px 80px;
+                 font-size: 20px;
+                text-align: left;}
 
-
-
-
-
-
-
-
-
-/* 
-.div-c{
-
-       padding-top: 50px;
-       padding-left: 30px;
-       margin: 20px;
-       font-size: 30px;
-        color:#757272;}
-
-.div-p{font-size: 20px;
-       color:#685e5e;
-       padding-left: 50px;}
-
-.btn-b{border-radius: 5px;
-     padding: 15px 30px;
-       color: #221919;
-       /* background: #e6e1e1; */
-       /* font-size: 20px;
-       margin-left: 50px; */}
-       
-/* .img-i{display: flex;
-      justify-content: space-between;
-      margin-bottom: 25px;
-      padding-bottom: 25px;
-      margin: 0px 400px;
-     /*  margin-bottom: 200px; */
-      background-position: bottom right, top left;} */
-
-
-/* 
-   .div-a{/*  background: #f0efef; */
-      /* padding:5px 20px; 
-          margin: 15px 20px; */
-      /*    margin: 100px;
-         width: 80%;
-         border-radius: 10px;
-        padding: 20px 20px;
-        */
-       }   */
-
-/* .div-b{
-        padding-top: 50px;
-        padding-left: 30px;
-        margin: 20px;
-        font-size: 30px;
-        /* color:#757272; */}
- 
- /* .div-c{font-size: 20px;
-        /* color:#685e5e; */
-        /* padding-left: 50px; */} */
-  */
- /* .btn-d{border-radius: 6px;
-        padding: 20px 30px;
-        color: #221919;
-       /*  background: #e6e1e1; */
-        /* font-size: 20px;
-        margin-left: 50px; */} */
-        
- /* .img-e{display: flex;
-       justify-content: space-between;
-       margin-bottom: 25px;
-       padding-bottom: 25px;
-       margin: 0px 400px;
-      /*  margin-bottom: 200px; */
-        background-position: bottom right, top left ;} */
-
-.div-1{ /* background: #f0efef; */
-         /* padding:5px 20px; 
-           margin: 15px 20px;
-           margin: 100px; */
-          /*  width: 100%; */
-          /* border-radius: 10px; */
-          
-         
-         }  
-  
-  .div-2{
-          /* padding-top: 50px;
-          padding-left: 30px;
-          margin: 20px;
-          font-size: 30px;
-          color:#757272; */ }
-   
-   /* .div-3{font-size: 20px;
-          color:#685e5e;
-          padding-left: 50px;}
-   
-   .btn-4{border-radius: 5px;
-          padding: 15px 30px;
-          color: #221919;
-          background: #e6e1e1;
-          font-size: 20px;
-          margin-left: 50px;}
-          
-   .img-5{display: flex;
-         justify-content: space-between;
-         margin-bottom: 25px;
-         padding-bottom: 25px;
-         /*  margin: 0px 400px;  */
-        /*  margin-bottom: 200px;
-         background-position: bottom right, top left; */} */
-
-/* 
-.div-insprition{text-align: center;}
-
-.div-my{font-size: 35px;
-       font-family: bold;}
-
-.div-h{font-size: 20px;
-      color:#493b3b;}
-.youtube{text-align: center;}
-
-.div-q{background-image: url('images/handshake.png');
-      width: 50px;}
-.
-
-
-footer p{    
-              /* margin-bottom: 25px;
-              margin-top: 20px;
-              font-weight: 600;
-              font-size: 30px; */} */
+.button_1{padding: 10px 13px;
+       border-radius:;
+        margin-left: 5px;
+        font-size: 15px;
+       }
+       footer{display: flex;
+             justify-content: space-around;
+               background-color: pink;
+              align-items: center;}
