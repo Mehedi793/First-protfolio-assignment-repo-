@@ -19,7 +19,7 @@ nav li{
 .btn-primary{
     border-radius: 10px;
     font-size: 25px;
- /*    color: rgb(34, 32, 32); */
+ /*  color: rgb(34, 32, 32); */
     font-weight: 500;
     padding: 10px 25px;}
 
@@ -27,7 +27,8 @@ nav li{
 
    
 
-.banner-contact{text-align: center;
+.banner-contact{
+       text-align: center;
         background-image: url('images/Hero-bg.png');
         background-repeat: no-repeat;
         padding-bottom: 120px;
@@ -47,33 +48,34 @@ nav li{
          letter-spacing: 5px;
          color:#0D1321;
          
-        
           }
 
- .contact-p{font-size: 20px;
-           color: #524f4f; 
-          /* color:#0D1321; */
-          /* font-family: bold; */
-            margin-bottom: 2%; 
-           
-          }    
+.contact-p{font-size: 20px;
+              color: #524f4f; 
+             /* color:#0D1321; */
+             /* font-family: bold; */
+             margin-bottom: 2%; 
+              
+          } 
 
 .contact-btn{
-            border-radius: 5px;
-            background-color: #031222;
-            color: white;
-            padding: 15px 30px;
-            font-size: 25px;
-           
-           }
+              border-radius: 5px;
+              background-color: #031222;
+              color: white;
+              padding: 15px 30px;
+              font-size: 25px;
+             
+             }
+
+
 
 .development-section{
-   /*  padding:5px 20px; 
-    margin: 15px 20px;
-   margin: 100px;
-   width: 80%;
-   border-radius: 10px;
-    padding: 20px 20px;  */
+   padding-bottom:20px;
+   margin-left: 130px; 
+   margin-right: 130px;
+    width: 80%;  
+    border-radius: 10px;
+    padding: 20px 20px; 
     
                 }
 
@@ -83,7 +85,7 @@ nav li{
     }
 
 .div-1{font-size: 40px;
-      font-family:"Azeret Mono";
+      font-family:'Azeret Mono';
       color:#181818;}
 
   
@@ -91,18 +93,79 @@ nav li{
 .div-2{font-size: 20px;
        color:#757272;}                
  
-.div-code{
+
+.code-section{display: flex;
+             gap:40px;
+             width: 100%;
+             margin: 100px 50px;
+              
+              }
+
+.new-section{margin-left: 100px;}
+
+.div-coding{
+       font-size: 30px;
+       
+       color: #524f4f;
+       
+     /*   font-family:'monospace' */;
+      /*  font-weight: bold */;
+       
+       
+
+       }
+       .div-p{font-size:20px;
+              color:#3a3939;
+             font-family: ;}
+
+       .btn-secondary{padding: 10px 25px;
+                     border: 1px solid #524f4f;
+                     font-size: 20px;
+                      color: #3a3939;
+                      font-family:arial;}
+
+       .img-i{margin-left: 100px;}
+
+
+.help-section{
+       display: flex; 
+       gap:40px;
+       width: 100%;
+       margin: 50px 140px;}
+
+.div-new{}
+
+.div-help {font-size: 32px;
+           color: #524f4f;}  
+
+.div-c{font-size: 22px;
+       color: #3a3939;}
+
+.div-btn{padding: 10px 25px;
+       border: 2px solid #524f4f;
+       font-size: 20px;
+        color: #3a3939;
+        font-family:arial;}
+
+
+/* .div-code{
         /* background: #f0efef; */
         /* padding:5px 20px; 
         margin: 15px 20px; */
        /*  margin: 100px;  */
-        width: 80%;
+      /*   width: 80%;
         border-radius: 10px;
-        padding: 20px 20px;
-        
-        }
+        padding: 20px 20px; */}
 
 
+
+
+
+
+
+
+
+/* 
 .div-c{
 
        padding-top: 50px;
@@ -119,54 +182,54 @@ nav li{
      padding: 15px 30px;
        color: #221919;
        /* background: #e6e1e1; */
-       font-size: 20px;
-       margin-left: 50px;}
+       /* font-size: 20px;
+       margin-left: 50px; */}
        
-.img-i{display: flex;
+/* .img-i{display: flex;
       justify-content: space-between;
       margin-bottom: 25px;
       padding-bottom: 25px;
       margin: 0px 400px;
      /*  margin-bottom: 200px; */
-      background-position: bottom right, top left;}
+      background-position: bottom right, top left;} */
 
 
-
+/* 
    .div-a{/*  background: #f0efef; */
       /* padding:5px 20px; 
           margin: 15px 20px; */
-         margin: 100px;
+      /*    margin: 100px;
          width: 80%;
          border-radius: 10px;
         padding: 20px 20px;
-       
-       }  
+        */
+       }   */
 
-.div-b{
+/* .div-b{
         padding-top: 50px;
         padding-left: 30px;
         margin: 20px;
         font-size: 30px;
         /* color:#757272; */}
  
- .div-c{font-size: 20px;
+ /* .div-c{font-size: 20px;
         /* color:#685e5e; */
-        padding-left: 50px;}
- 
- .btn-d{border-radius: 6px;
+        /* padding-left: 50px; */} */
+  */
+ /* .btn-d{border-radius: 6px;
         padding: 20px 30px;
         color: #221919;
        /*  background: #e6e1e1; */
-        font-size: 20px;
-        margin-left: 50px;}
+        /* font-size: 20px;
+        margin-left: 50px; */} */
         
- .img-e{display: flex;
+ /* .img-e{display: flex;
        justify-content: space-between;
        margin-bottom: 25px;
        padding-bottom: 25px;
        margin: 0px 400px;
       /*  margin-bottom: 200px; */
-       /* background-position: bottom right, top left */;}
+        background-position: bottom right, top left ;} */
 
 .div-1{ /* background: #f0efef; */
          /* padding:5px 20px; 
@@ -185,7 +248,7 @@ nav li{
           font-size: 30px;
           color:#757272; */ }
    
-   .div-3{font-size: 20px;
+   /* .div-3{font-size: 20px;
           color:#685e5e;
           padding-left: 50px;}
    
@@ -201,10 +264,10 @@ nav li{
          margin-bottom: 25px;
          padding-bottom: 25px;
          /*  margin: 0px 400px;  */
-         margin-bottom: 200px;
-         background-position: bottom right, top left;}
+        /*  margin-bottom: 200px;
+         background-position: bottom right, top left; */} */
 
-
+/* 
 .div-insprition{text-align: center;}
 
 .div-my{font-size: 35px;
@@ -224,10 +287,10 @@ nav li{
 footer{ width: 50%;
        text-align: center;
        padding: 30px 0;
-       border-radius: 5px;}
+       border-radius: 5px;} */
 
 footer p{    
               /* margin-bottom: 25px;
               margin-top: 20px;
               font-weight: 600;
-              font-size: 30px; */}
+              font-size: 30px; */} */
