@@ -227,15 +227,25 @@ nav li{
 .support-p{color: #aaa6a6;
            font-size: 20px;}
 .new-placeholder{padding: 10px 80px;
-                 font-size: 20px;
+              font-size: 20px;
                 text-align: left;}
 
-.button_1{padding: 10px 13px;
+.button_1{padding: 12px 13px;
        border-radius:;
         margin-left: 5px;
         font-size: 15px;
        }
-       footer{display: flex;
-             justify-content: space-around;
-               background-color: pink;
-              align-items: center;}
+footer{display: flex;
+       justify-content: space-around;
+       background-color: rgb(204, 198, 199);
+    /*    padding: 15px 15px; */
+       align-items: center; }
+
+.footer-h4{font-size: 25px;
+           font-family: arial;
+}
+
+.social-link{}
+.fa-facebook{margin-right: 15px;}
+.github{margin-right: 15px;}
+.linkedin{margin-right: 15px;}
