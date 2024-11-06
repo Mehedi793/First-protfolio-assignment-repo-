@@ -124,7 +124,7 @@ nav li{
                       color: #3a3939;
                       font-family:arial;}
 
-       .img-i{margin-left: 100px;}
+.img-i{margin-left: 100px;}
 
 
 .help-section{
@@ -210,8 +210,9 @@ nav li{
              width: 43%;}
 
 
-.support-section{background-image:url('images/handshake.jpg');
-        text-align: center; 
+.support-section{background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url('images/handshake.jpg');
+       background-color: transparent; 
+       text-align: center; 
        width: 80%;
        padding: 60px 0;
        margin: 60px auto;
@@ -221,24 +222,27 @@ nav li{
 
 .support{text-align: center;}
 
-.support-h2{color:#f5ecec;
+.support-h2{color:#fff;
             font-size: 40px;}
 
 .support-p{color: #aaa6a6;
            font-size: 20px;}
-.new-placeholder{padding: 10px 80px;
-              font-size: 20px;
-                text-align: left;}
+.new-placeholder{ 
+              padding: 10px 140px 10px 5px;
+              font-size: 15px;
+              text-align: left;}
 
-.button_1{padding: 12px 13px;
+.button_1{padding: 10px 13px;
        border-radius:;
         margin-left: 5px;
         font-size: 15px;
        }
+
 footer{display: flex;
        justify-content: space-around;
        background-color: rgb(204, 198, 199);
-    /*    padding: 15px 15px; */
+
+        padding: 15px 15px; 
        align-items: center; }
 
 .footer-h4{font-size: 25px;
@@ -246,6 +250,8 @@ footer{display: flex;
 }
 
 .social-link{}
+
 .fa-facebook{margin-right: 15px;}
+
 .github{margin-right: 15px;}
 .linkedin{margin-right: 15px;}
